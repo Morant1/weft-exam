@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/', getAllUsers);
 router.get(
 	'/findByname/:name',
-	param('name', 'name muse be a string').isString,
+	param('name', 'name muse be a string').isString(),
 	validateRequestSchema,
 	filterUserByName,
 );
