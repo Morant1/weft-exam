@@ -1,0 +1,9 @@
+GET http://localhost:3001/api/user?limit=2&pageSize=10
+
+###
+
+GET http://localhost:3001/api/user/findByEmail/moran@just.ai
+
+###
+
+DELETE http://localhost:3001/api/user/65363533e4fe2614e4eb7d8a
